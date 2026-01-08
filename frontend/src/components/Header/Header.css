@@ -1,0 +1,165 @@
+.header {
+  margin: 0;
+  width: 1920px;
+  height: auto;
+  background-color: #ffb30e;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__container {
+  display: flex;
+  flex-direction: column;
+  width: 856px;
+  height: auto;
+  margin-top: 132px;
+  margin-left: 220px;
+  margin-bottom: 132px;
+}
+
+.header__description {
+  margin: 0 190px 32px 0;
+}
+
+.header__description_title {
+  font-size: 88px;
+  line-height: 1.1;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.header__description_subtitle {
+  font-size: 22px;
+  font-size: 1.2;
+  color: #504f4f;
+}
+
+.header__box {
+  width: 856px;
+  background-color: white;
+  margin: 0;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__box_buttons {
+  width: 856px;
+  height: 86px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header__box_buttons_delivery {
+  width: 148px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #f4c1a3;
+  border-radius: 8px;
+  margin-left: 24px;
+}
+
+.header__box_buttons_delivery_img {
+  width: 23px;
+  height: 18px;
+}
+
+.header__box_buttons_delivery_text {
+  color: #f17228;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.header__box_buttons_pickup {
+  width: 129px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+}
+
+.header__box_buttons_pickup_img {
+  width: 18px;
+  height: 18px;
+}
+
+.header__box_buttons_pickup_text {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.header__box_finder {
+  width: 856px;
+  height: 108px;
+  margin: 0;
+}
+
+.header__box_finder_container {
+  margin: 24px;
+  display: flex;
+  gap: 16px;
+}
+
+.header__box_finder_container_address {
+  width: 593px;
+  height: 49px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header__box_finder_container_address_img {
+  width: 18px;
+  margin: 7px 5px 8px 16px;
+}
+
+.header__box_finder_container_address_input {
+  width: auto;
+  height: 25px;
+  font-size: 18px;
+  line-height: 1.1;
+  border: none;
+}
+
+.header__box_finder_container_address_button {
+  margin: 0;
+  width: 199px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #f65900;
+  border-radius: 8px;
+  border: none;
+}
+
+.header__box_finder_container_address_button_img {
+  width: 14px;
+  height: 14px;
+}
+
+.header__box_finder_container_address_button_text {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.header__image {
+  width: 604px;
+  height: 505px;
+  margin: 315px 218px 0 22px;
+}
