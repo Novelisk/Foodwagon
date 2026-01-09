@@ -1,12 +1,11 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
 import { Header } from './components/Header/Header';
+import { Searchbar } from './components/SearchBar/Searchbar';
 
 function App() {
   return (
     <>
       <Header />
+      <Searchbar />
     </>
   );
 }

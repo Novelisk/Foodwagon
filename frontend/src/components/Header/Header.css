@@ -64,6 +64,7 @@
   background-color: #f4c1a3;
   border-radius: 8px;
   margin-left: 24px;
+  border: none;
 }
 
 .header__box_buttons_delivery_img {
@@ -86,6 +87,7 @@
   align-items: center;
   gap: 10px;
   background-color: white;
+  border: none;
 }
 
 .header__box_buttons_pickup_img {
