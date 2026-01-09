@@ -1,0 +1,113 @@
+.search-bar {
+  width: 1920px;
+  height: 78px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+.search-bar__logo {
+  width: 197px;
+  height: 37px;
+}
+
+.search-bar__location_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 12px;
+}
+
+.search-bar__location_container_deliver-to {
+  color: #424242;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.search-bar__location_container_location {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.search-bar__location_container_location_pin {
+  width: 15px;
+  height: 20px;
+}
+
+.search-bar__location_container_location_text {
+  color: #424242;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.search-bar__location_container_location_address-text {
+  color: #424242;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.search-bar__search_login,
+.search-bar__search_login_search-btn,
+.search-bar__search_login_login-btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: none;
+  gap: 8px;
+}
+
+.search-bar__search_login_search-btn_img,
+.search-bar__search_login_login-btn_img {
+  width: 18px;
+  height: 18px;
+}
+
+.search-bar__search_login_search-btn_text {
+  color: #424242;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.search-bar__search_login_search-btn {
+  width: auto;
+  height: 18px;
+}
+
+.search-bar__search_login_login-btn {
+  width: 118px;
+  height: 46px;
+  border-radius: 8px;
+  background: #fff;
+  padding: 12px 24px;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08), 0 8px 24px rgba(255, 154, 0, 0.25);
+}
+
+.search-bar__search_login_login-btn:hover {
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08),
+    0 14px 36px rgba(255, 154, 0, 0.35);
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+
+.search-bar__search_login_search-btn:hover {
+  cursor: pointer;
+}
+
+.search-bar__search_login_login-btn_text {
+  background: linear-gradient(135deg, #ffae00 0%, #ff8a00 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.2;
+}
