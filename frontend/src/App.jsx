@@ -1,4 +1,5 @@
 import { Header } from './components/Header/Header';
+import { Main } from './components/Main/Main';
 import { Searchbar } from './components/SearchBar/Searchbar';
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <Header />
       <Searchbar />
+      <Main />
     </>
   );
 }
