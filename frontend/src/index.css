@@ -3,6 +3,7 @@
 @import url('./components/Main/Main.css');
 @import url('./components/DiscountCards/DiscountCards.css');
 @import url('./components/RestaurantCards/RestaurantCards.css');
+@import url('./components/Footer/Footer.css');
 
 :root {
   font-family: 'Inter', Helvetica, Arial, sans-serif;

@@ -8,7 +8,7 @@ import finderIcon from '../../assets/images/header/finder_icon_white.png';
 export const Header = () => {
   return (
     <>
-      <div className="header">
+      <header className="header">
         <div className="header__container">
           <div className="header__description">
             <h1 className="header__description_title">Are you starving?</h1>
@@ -71,7 +71,7 @@ export const Header = () => {
           alt="Photo of a bowl of ramen noodles"
           className="header__image"
         />
-      </div>
+      </header>
     </>
   );
 };
