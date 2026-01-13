@@ -4,6 +4,7 @@ import orderIcon from '../../assets/images/instructions/order_icon.png';
 import payBill from '../../assets/images/instructions/pay_bill.png';
 import donutIcon from '../../assets/images/instructions/donut_icon.png';
 import { DiscountCards } from '../DiscountCards/DiscountCards';
+import { RestaurantCards } from '../RestaurantCards/RestaurantCards';
 
 export const Main = () => {
   return (
@@ -74,6 +75,8 @@ export const Main = () => {
 
       <div className="main__restaurants">
         <h2 className="main__restaurants_title">Featured Restaurants</h2>
+        <RestaurantCards />
+        <button className="main__restaurants_button">View All {'>'}</button>
       </div>
     </section>
   );

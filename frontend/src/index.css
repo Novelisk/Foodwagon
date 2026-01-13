@@ -2,6 +2,7 @@
 @import url('./components/SearchBar/SearchBar.css');
 @import url('./components/Main/Main.css');
 @import url('./components/DiscountCards/DiscountCards.css');
+@import url('./components/RestaurantCards/RestaurantCards.css');
 
 :root {
   font-family: 'Inter', Helvetica, Arial, sans-serif;

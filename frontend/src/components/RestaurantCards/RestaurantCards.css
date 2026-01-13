@@ -1,0 +1,85 @@
+.restaurant-cards__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 357px);
+  gap: 16px;
+}
+
+.card {
+  height: 463px;
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 64px;
+}
+
+.card__img {
+  width: 357px;
+  height: 301px;
+}
+
+.card__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card__container_top {
+  display: flex;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.card__container_top_image {
+  width: 64px;
+  height: 64px;
+}
+
+.card__container_top_text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card__container_top_text-container_title {
+  color: #424242;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.card__container_top_text-container_cont {
+  display: flex;
+  align-content: center;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.card__container_top_text-container_star {
+  width: 25px;
+  height: 23px;
+}
+
+.card__container_top_text-container_reviews {
+  color: #ffb30e;
+  font-size: 22px;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.card__container_bot {
+  background-color: rgba(121, 185, 60, 0.22);
+  border: none;
+  border-radius: 16px;
+  margin-top: 32px;
+}
+
+.card__container_bot_subtitle {
+  color: #79b93c;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.2;
+  padding: 8px 16px;
+  margin: 0;
+}
