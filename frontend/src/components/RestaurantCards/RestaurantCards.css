@@ -1,7 +1,8 @@
 .restaurant-cards__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 357px);
+  grid-template-columns: repeat(4, 357px);
   gap: 16px;
+  justify-content: center;
 }
 
 .card {

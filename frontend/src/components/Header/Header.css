@@ -1,6 +1,6 @@
 .header {
   margin: 0;
-  width: 1920px;
+  width: 100%;
   height: auto;
   background-color: #ffb30e;
   display: flex;
@@ -65,6 +65,11 @@
   border-radius: 8px;
   margin-left: 24px;
   border: none;
+}
+
+.header__box_buttons_delivery:hover {
+  cursor: pointer;
+  opacity: 80%;
 }
 
 .header__box_buttons_delivery_img {
@@ -133,6 +138,7 @@
   font-size: 18px;
   line-height: 1.1;
   border: none;
+  background-color: transparent;
 }
 
 .header__box_finder_container_address_button {
@@ -158,6 +164,11 @@
   font-size: 18px;
   font-weight: 700;
   line-height: 1.1;
+}
+
+.header__box_finder_container_address_button:hover {
+  cursor: pointer;
+  transform: translateY(-2px);
 }
 
 .header__image {

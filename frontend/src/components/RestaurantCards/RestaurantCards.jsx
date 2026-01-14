@@ -63,7 +63,7 @@ const cards = [
   },
   {
     id: 6,
-    restaurantTitle: 'Kentucky Fried Chiken',
+    restaurantTitle: 'KFC',
     restaurantLogo: kfcLogo,
     image: kfcImage,
     reviews: 53,
