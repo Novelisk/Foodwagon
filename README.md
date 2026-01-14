@@ -8,10 +8,10 @@ This project focuses on **frontend architecture and visual presentation**. It do
 
 ## Preview
 
-![Foodwagon Hero](./assets/images/ss/foodwagon_header.jpeg)
-![Weekly Discounts](./assets/images/ss/foodwagon_main_discounts.jpeg)
-![Featured Restaurants](./assets/images/ss/foodwagon_main_restaurants.jpeg)
-![Footer](./assets/images/ss/foodwagon_footer.jpeg)
+![Foodwagon Hero](./frontend/src/assets/images/ss/foodwagon_header.jpeg)
+![Weekly Discounts](./frontend/src/assets/images/ss/foodwagon_main_discounts.jpeg)
+![Featured Restaurants](./frontend/src/assets/images/ss/foodwagon_main_restaurants.jpeg)
+![Footer](./frontend/src/assets/images/ss/foodwagon_footer.jpeg)
 
 ---
 
